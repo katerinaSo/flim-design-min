@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 250px;
+  display: grid;
+  grid-template-areas:
+    "logo"
+    "action"
+    "footer";
+  margin: auto;
+  grid-gap: 8em;
+}
+.logo {
+  margin-top: 2em;
+  grid-area: logo;
+}
+.action {
+  grid-area: action;
+  text-align: center;
+}
+footer {
+  grid-area: footer;
+  margin-top: 3em;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap:0.5em;
+  font-weight: 100;
+}
+span{
+    color:#53c4cc;
+    font-weight: 700;
+    font: size 1.3em;
+}
+.btn-primary {
+  width: 250px;
+  background: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  border-top: 7px dashed white;
+  border-bottom: 7px dashed white;
+  padding: 0.9rem 1.6rem;
+  box-shadow: 0.01em 0.1em 0.8em rgba(32, 77, 82, 0.678);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.9em;
+  font-weight: 700;
+  background: black;
+  color: white;
+  border-top: 7px dashed black;
+  border-bottom: 7px dashed black;
+  background: #53c4cc;
+}
+.btn-primary:hover {
+  color: black;
+  background: transparent;
+  background: #53c4cc;
+  border-top: 7px dashed white;
+  border-bottom: 7px dashed white;
+  box-shadow: none;
+}
+.button {
+  text-decoration: none;
+}
+.button::before {
+  content: "reality = your dream + my dream";
+  display: block;
+  width: 250px;
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: black;
+}
+.underlined{
+    text-decoration: underline;
+}
