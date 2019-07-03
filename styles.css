@@ -38,7 +38,7 @@ footer {
 span{
     color:#53c4cc;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .btn-primary {
   width: 250px;
@@ -53,7 +53,7 @@ span{
   transition: all 0.3s linear;
   cursor: pointer;
   text-align: center;
-  font-size: 1.9em;
+  font-size: 1.5em;
   font-weight: 700;
   background: black;
   color: white;
@@ -78,7 +78,7 @@ span{
   width: 250px;
   color: white;
   font-weight: 700;
-  font-size: 1em;
+  font-size: .8em;
   background-color: black;
 }
 .underlined{
