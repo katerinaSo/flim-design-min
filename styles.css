@@ -28,7 +28,7 @@ a{
 }
 footer {
   grid-area: footer;
-  margin-top: 3em;
+  
   text-align: center;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
