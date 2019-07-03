@@ -12,10 +12,10 @@ body {
     "action"
     "footer";
   margin: auto;
-  grid-gap: 8em;
+  grid-gap: 5em;
 }
 .logo {
-  margin-top: 2em;
+  margin-top: 1em;
   grid-area: logo;
 }
 a{
