@@ -67,7 +67,7 @@ span{
 .button::before {
   content: "reality = your dream + my dream";
   display: block;
-  width: 300px;
+  width: 250px;
   color: #53c4cc;
   font-weight: 700;
   font-size: 1em;
