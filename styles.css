@@ -15,7 +15,7 @@ body {
   grid-gap: 5em;
 }
 .logo {
-  margin-top: 1em;
+  margin-top: em;
   grid-area: logo;
 }
 a{
@@ -46,27 +46,19 @@ span{
   text-transform: uppercase;
   text-decoration: none;
   color: black;
-  border-top: 7px dashed white;
-  border-bottom: 7px dashed white;
   padding: 0.9rem 1.6rem;
-  box-shadow: 0.01em 0.1em 0.8em rgba(32, 77, 82, 0.678);
   transition: all 0.3s linear;
   cursor: pointer;
   text-align: center;
   font-size: 1.5em;
   font-weight: 700;
-  background: black;
-  color: white;
-  border-top: 7px dashed black;
-  border-bottom: 7px dashed black;
-  background: #53c4cc;
+  border:2px solid #53c4cc;
 }
 .btn-primary:hover {
-  color: black;
+  color: white;
   background: transparent;
   background: #53c4cc;
-  border-top: 7px dashed white;
-  border-bottom: 7px dashed white;
+  
   box-shadow: none;
 }
 .button {
@@ -75,11 +67,11 @@ span{
 .button::before {
   content: "reality = your dream + my dream";
   display: block;
-  width: 250px;
-  color: white;
+  width: 300px;
+  color: #53c4cc;
   font-weight: 700;
-  font-size: .8em;
-  background-color: black;
+  font-size: 1em;
+
 }
 .underlined{
     text-decoration: underline;
