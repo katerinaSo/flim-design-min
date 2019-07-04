@@ -22,6 +22,9 @@ a{
     text-decoration: none;
     color:black;
 }
+a :hover{
+    color:black;
+}
 .action {
   grid-area: action;
   text-align: center;
